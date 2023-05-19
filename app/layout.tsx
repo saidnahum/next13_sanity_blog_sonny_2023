@@ -13,6 +13,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <h1 className='text-5xl text-red-500'>Pruebaaaa</h1>
         {children}
       </body>
     </html>

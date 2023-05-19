@@ -11,7 +11,7 @@ const StudioNavbar = (props: any) => {
         </Link>
 
         <div className="hidden lg:flex p-5 rounded-lg justify-center border-2 border-[#F7AB0A]">
-          <h1 className="font-bold text-white">¿Quieres un gestor de contenido como este? Visita mi sitio web para mayor información!!!</h1>
+          <h1 className="font-bold text-white">Do you want a content manager like this? Visit my website for more info!!!</h1>
           <Link 
             href='https://saidn.tech' 
             className="text-[#F7AB0A] font-bold ml-2"
