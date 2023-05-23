@@ -1,4 +1,6 @@
-import './globals.css'
+import '../globals.css'
+import Header from '@/components/Header'
+import Banner from '@/components/Banner'
 
 export const metadata = {
   title: 'The Blog',
@@ -13,7 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <h1 className='text-5xl text-red-500'>Pruebaaaa</h1>
+        <Header/>
+        <Banner/>
         {children}
       </body>
     </html>
