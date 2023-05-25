@@ -12,6 +12,7 @@ import {schema} from './sanity/schema'
 import { myTheme } from './themes'
 import StudioNavbar from './components/StudioNavbar'
 import Logo from './components/Logo'
+import { getDefaultDocumentNode } from './structure'
 
 export default defineConfig({
   basePath: '/studio',
@@ -22,7 +23,9 @@ export default defineConfig({
   // Add and edit the content schema in the './sanity/schema' folder
   schema,
   plugins: [
-    deskTool(),
+    deskTool({
+      defaultDocumentNode: getDefaultDocumentNode
+    }),
     visionTool({defaultApiVersion: apiVersion}),
   ],
   studio: {

@@ -17,7 +17,7 @@ const Header = () => {
         <h1>The PIXELWEB</h1>
       </div>
 
-      <div>
+      <div className='hidden sm:flex'>
         <Link 
           href='https://saidn.tech'
           className='bg-gray-900 text-[#F7AB0A] px-5 py-3 rounded-full text-sm md:text-base flex items-center text-center'
